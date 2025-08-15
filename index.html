@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reflejos Rápidos</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app">
+        <!-- Start screen -->
+        <div id="start-screen" class="screen active">
+            <h1>Reflejos Rápidos</h1>
+            <p>Haz clic en el botón para comenzar la prueba. Cuando la pantalla se ponga verde, haz clic lo más rápido posible.</p>
+            <button id="start-button">Comenzar</button>
+        </div>
+        <!-- Game screen -->
+        <div id="game-screen" class="screen">
+            <div id="status" class="status-text">Prepárate...</div>
+        </div>
+        <!-- Result screen -->
+        <div id="result-screen" class="screen">
+            <h1>Resultado</h1>
+            <p id="result-text"></p>
+            <button id="restart-button">Intentar de nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
